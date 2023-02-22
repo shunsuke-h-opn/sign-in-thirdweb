@@ -7,8 +7,8 @@ const Home: NextPage = () => {
   const { user } = useUser();
 
   return (
-    <div>
-      <div>
+    <div className={styles.container}>
+      <div className={styles.connect}>
         <ConnectWallet
           auth={{
             loginOptional: false,
